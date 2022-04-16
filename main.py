@@ -67,8 +67,8 @@ def decrypt(name : str, password : str):
 	except ValueError:
 	    print("Key incorrect. Try again")	
 	else:
-		with open(name, "w") as f:
-			f.write(plaintext.decode())
+		with open(name, "wb") as f:
+			f.write(plaintext)
 
 def handleDecrypt():	
 	try:
