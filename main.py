@@ -3,7 +3,7 @@ import argparse
 import hashlib
 from Crypto.Cipher import AES
 from getpass import getpass
-
+#Popova was here
 def createParser():
     parser = argparse.ArgumentParser()
     parser.add_argument('-e', '--encrypt', nargs='?', default='', type=str)
